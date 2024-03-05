@@ -1,0 +1,18 @@
+name: kaggle
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pytorch
+  - matplotlib
+  - scipy
+  - tqdm
+  - seaborn
+  - pip
+  - pip:
+    - japanize-matplotlib
+    - openai
